@@ -33,7 +33,7 @@
 
 
     <!-- Modernizr JS -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src={% static "main/js/vendor/modernizr-2.8.3.min.js" %}></script>
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="images/logo/logo.png" alt="logo">
+                                    <img src={% static "main/images/logo/logo.png" %} alt="logo">
                                 </a>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                                     <li>
                                                         <div class="mega-item-img">
                                                             <a href="shop.html">
-                                                                <img src="images/feature-img/3.png" alt="">
+                                                                <img src={% static "main/images/feature-img/3.png" %} alt="">
                                                             </a>
                                                         </div>
                                                     </li>
@@ -932,7 +932,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/2.png" alt="product images">
+                                                                <img src={% static "main/images/product/2.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -957,7 +957,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/1.png" alt="product images">
+                                                                <img src={% static "main/images/product/1.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -982,7 +982,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1007,7 +1007,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %}
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1032,7 +1032,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/3.png" alt="product images">
+                                                                <img src={% static "main/images/product/3.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1063,7 +1063,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/9.png" alt="product images">
+                                                                <img src={% static "main/images/product/9.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1088,7 +1088,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1113,7 +1113,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/3.png" alt="product images">
+                                                                <img src={% static "main/images/product/3.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1138,7 +1138,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1163,7 +1163,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/2.png" alt="product images">
+                                                                <img src={% static "main/images/product/2.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1196,7 +1196,7 @@
         <div class="only-banner ptb--100 bg__white">
             <div class="container">
                 <div class="only-banner-img">
-                    <a href="shop-sidebar.html"><img src="images/new-product/6.jpg" alt="new product"></a>
+                    <a href="shop-sidebar.html"><img src={% static "main/images/new-product/6.jpg" %} alt="new product"></a>
                 </div>
             </div>
         </div>
@@ -1268,7 +1268,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/1.png" alt="product images">
+                                                                <img src={% static "main/images/product/1.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1293,7 +1293,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/2.png" alt="product images">
+                                                                <img src={% static "main/images/product/2.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1318,7 +1318,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/3.png" alt="product images">
+                                                                <img src={% static "main/images/product/3.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1343,7 +1343,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1368,7 +1368,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1399,7 +1399,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1424,7 +1424,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1449,7 +1449,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/6.png" alt="product images">
+                                                                <img src={% static "main/images/product/6.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1474,7 +1474,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/7.png" alt="product images">
+                                                                <img src={% static "main/images/product/7.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1499,7 +1499,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/8.png" alt="product images">
+                                                                <img src={% static "main/images/product/8.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1524,7 +1524,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/9.png" alt="product images">
+                                                                <img src={% static "main/images/product/9.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1555,7 +1555,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/2.png" alt="product images">
+                                                                <img src={% static "main/images/product/2.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1580,7 +1580,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/1.png" alt="product images">
+                                                                <img src={% static "main/images/product/1.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1605,7 +1605,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1630,7 +1630,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1655,7 +1655,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/3.png" alt="product images">
+                                                                <img src={% static "main/images/product/3.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1680,7 +1680,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/7.png" alt="product images">
+                                                                <img src={% static "main/images/product/7.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1711,7 +1711,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/9.png" alt="product images">
+                                                                <img src={% static "main/images/product/9.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1736,7 +1736,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1761,7 +1761,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/3.png" alt="product images">
+                                                                <img src={% static "main/images/product/3.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1786,7 +1786,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1811,7 +1811,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/2.png" alt="product images">
+                                                                <img src={% static "main/images/product/2.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1836,7 +1836,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/7.png" alt="product images">
+                                                                <img src={% static "main/images/product/7.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1869,7 +1869,7 @@
         <div class="only-banner bg__white">
             <div class="container">
                 <div class="only-banner-img">
-                    <a href="shop-sidebar.html"><img src="images/new-product/7.jpg" alt="new product"></a>
+                    <a href="shop-sidebar.html"><img src={% static "main/images/new-product/7.jpg" %} alt="new product"></a>
                 </div>
             </div>
         </div>
@@ -1944,7 +1944,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/3.png" alt="product images">
+                                                                <img src={% static "main/images/product/3.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1969,7 +1969,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -1994,7 +1994,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2025,7 +2025,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/4.png" alt="product images">
+                                                                <img src={% static "main/images/product/4.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2050,7 +2050,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2075,7 +2075,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/6.png" alt="product images">
+                                                                <img src={% static "main/images/product/6.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2106,7 +2106,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/2.png" alt="product images">
+                                                                <img src={% static "main/images/product/2.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2131,7 +2131,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/1.png" alt="product images">
+                                                                <img src={% static "main/images/product/1.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2156,7 +2156,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/5.png" alt="product images">
+                                                                <img src={% static "main/images/product/5.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2187,7 +2187,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/9.png" alt="product images">
+                                                                <img src={% static "main/images/product/9.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2212,7 +2212,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/8.png" alt="product images">
+                                                                <img src={% static "main/images/product/8.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2237,7 +2237,7 @@
                                                     <div class="product__inner">
                                                         <div class="pro__thumb">
                                                             <a href="#">
-                                                                <img src="images/product/7.png" alt="product images">
+                                                                <img src={% static "main/images/product/7.png" %} alt="product images">
                                                             </a>
                                                         </div>
                                                         <div class="product__hover__info">
@@ -2286,7 +2286,7 @@
                                 <div class="blog__inner">
                                     <div class="blog__thumb">
                                         <a href="blog-details.html">
-                                            <img src="images/blog/blog-img/1.jpg" alt="blog images">
+                                            <img src={% static "main/images/blog/blog-img/1.jpg" %} alt="blog images">
                                         </a>
                                         <div class="blog__post__time">
                                             <div class="post__time--inner">
@@ -2317,7 +2317,7 @@
                                 <div class="blog__inner">
                                     <div class="blog__thumb">
                                         <a href="blog-details.html">
-                                            <img src="images/blog/blog-img/2.jpg" alt="blog images">
+                                            <img src={% static "main/images/blog/blog-img/2.jpg" %} alt="blog images">
                                         </a>
                                         <div class="blog__post__time">
                                             <div class="post__time--inner">
@@ -2348,7 +2348,7 @@
                                 <div class="blog__inner">
                                     <div class="blog__thumb">
                                         <a href="blog-details.html">
-                                            <img src="images/blog/blog-img/3.jpg" alt="blog images">
+                                            <img src={% static "main/images/blog/blog-img/3.jpg" %} alt="blog images">
                                         </a>
                                         <div class="blog__post__time">
                                             <div class="post__time--inner">
@@ -2388,7 +2388,7 @@
                             <div class="ft__widget">
                                 <div class="ft__logo">
                                     <a href="index.html">
-                                        <img src="images/logo/logo.png" alt="footer logo">
+                                        <img src={% static "main/images/logo/logo.png" %} alt="footer logo">
                                     </a>
                                 </div>
                                 <div class="footer-address">
@@ -2522,7 +2522,7 @@
                             <!-- Start product images -->
                             <div class="product-images">
                                 <div class="main-image images">
-                                    <img alt="big images" src="images/product/big-img/1.jpg">
+                                    <img alt="big images" src={% static "main/images/product/big-img/1.jpg" %}>
                                 </div>
                             </div>
                             <!-- end product images -->
